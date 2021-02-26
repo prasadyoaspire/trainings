@@ -3,3 +3,17 @@
 
 # Ignore Gradle build output directory
 build
+
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+# eclipse specific git ignore
+.project
+.metadata
+bin/**
+
+.classpath
+.settings/
